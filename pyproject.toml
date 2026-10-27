@@ -1,0 +1,15 @@
+[project]
+name = "tuya-led-scenes"
+version = "0.1.0"
+description = "Open-source scene & effect library for Tuya Wi-Fi RGB LED strips (local control)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["tinytuya>=1.15"]
+
+[project.scripts]
+tuya-led-scenes = "tuya_led_scenes.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
