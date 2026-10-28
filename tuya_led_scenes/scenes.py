@@ -67,9 +67,9 @@ def mic_data(colours, sensitivity=50, bright=100):
 
 
 MUSIC = {
-    "music_energetic": mic_data([(0, 1000), (120, 1000), (240, 1000)], sensitivity=0x50, bright=0x64),
-    "music_soft":      mic_data([(30, 600), (320, 600), (275, 600)], sensitivity=0x28, bright=0x50),
-    "music_spectrum":  mic_data([(0, 1000), (60, 1000), (180, 1000)], sensitivity=0x46, bright=0x64),
-    "music_warm":      mic_data([(20, 700), (0, 800), (40, 700)], sensitivity=0x3c, bright=0x5a),
-    "music_disco":     mic_data([(300, 1000), (180, 1000), (55, 1000)], sensitivity=0x64, bright=0x64),
+    "music_energetic": mic_data([(0, 1000), (120, 1000), (240, 1000)], sensitivity=0x50, bright=0xff),
+    "music_soft":      mic_data([(30, 600), (320, 600), (275, 600)], sensitivity=0x28, bright=0xaa),
+    "music_spectrum":  mic_data([(0, 1000), (60, 1000), (180, 1000)], sensitivity=0x46, bright=0xff),
+    "music_warm":      mic_data([(20, 700), (0, 800), (40, 700)], sensitivity=0x3c, bright=0xcc),
+    "music_disco":     mic_data([(300, 1000), (180, 1000), (55, 1000)], sensitivity=0x64, bright=0xff),
 }
